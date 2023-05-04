@@ -9,5 +9,5 @@ def hello_world():
     return render_template("index.html")
 
 @app.route("/capabilities")
-def hello_world():
+def capabilities():
     return render_template("capabilities.html")

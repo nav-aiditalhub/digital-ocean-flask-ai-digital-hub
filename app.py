@@ -11,3 +11,8 @@ def hello_world():
 @app.route("/capabilities")
 def capabilities():
     return render_template("capabilities.html")
+
+@app.route("/terms")
+def terms():
+    return render_template("terms.html")
+
